@@ -1,0 +1,15 @@
+{
+  "name": "valenca-moraes-advocacia",
+  "private": true,
+  "type": "module",
+  "description": "Site institucional estático, com controle de licença do Alex Sousa Tech Gestão (middleware da Vercel).",
+  "scripts": {
+    "testar": "node --env-file-if-exists=.env scripts/testar-local.mjs"
+  },
+  "dependencies": {
+    "@vercel/functions": "^3.11.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
